@@ -1,0 +1,30 @@
+.feature{
+  padding-bottom: 47px;
+}
+.feature-list{
+  display: flex;
+}
+.feature-list__item{
+  width: 270px;
+}
+.feature-list__item + .feature-list__item{
+ margin-left: var(--first-margin);
+}
+.feature-gallery{
+display: flex;
+width: 270px;
+height: 120px;
+border-radius: 4px;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+
+background-color: var(--team-fon-color);
+}
+.feature__text{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: var(--top-text-color);
+}

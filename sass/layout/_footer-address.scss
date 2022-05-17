@@ -1,0 +1,42 @@
+.footer{
+  padding-top: 60px;
+  padding-bottom:60px ;
+     
+  background-color: var(--footer-color);
+}
+.footer-content{
+  display: flex;
+  align-items: baseline;
+}
+.address-list{
+  font-style: normal;
+}
+.top-address{
+margin-top: 20px;
+}
+.address{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+margin-bottom: 9px;
+
+color:var(--address-color);
+}
+.mail{
+  margin-bottom: 9px;
+}
+.address-list__link{
+font-size: 14px;
+line-height:1.71;
+letter-spacing: 0.03em;
+
+color: var(--contacts-color);
+
+transition: color var(--duration) var(--time-function);
+&:hover,
+&:focus {
+  color:var(--hover-color);
+}
+}
+

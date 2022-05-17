@@ -1,0 +1,16 @@
+.feature-bottom__title,
+.work-bottom__title{
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+margin-bottom: 10px;
+}
+.bottom-title--dark{
+ color: var(--second-title-color); 
+}
+.bottom-title--light{
+color: #FFFFFF;
+}

@@ -1,0 +1,24 @@
+.logo {
+font-family: 'Raleway','Tahoma', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+.logo--dark{
+padding-top: 24px;
+padding-bottom: 24px;
+color: var(--logo-top-color);
+}
+.logo--light{
+color:var(--logo-bottom-color);
+}
+.logo__accent{
+font-family: 'Raleway','Tahoma', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--accent-color);
+}
