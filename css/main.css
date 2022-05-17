@@ -120,6 +120,16 @@ img {
   outline: 1px solid #e02291;
 }
 
+.container--top {
+  display: flex;
+  align-items: center;
+}
+
+.container--bottom {
+  display: flex;
+  align-items: baseline;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -217,35 +227,48 @@ img {
   background-color: var(--accent-color);
 }
 
+.title {
+  font-family: 'Roboto';
+}
+
+.title--dark {
+  color: var(--second-title-color);
+}
+
+.title--light {
+  color: #FFFFFF;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  width: 696px;
+  margin-bottom: var(--second-margin);
+}
+
 .feature-top__title,
 .work-top__title,
 .team-top__title,
 .clients-top__title {
-  font-family: 'Roboto';
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  color: var(--bottom-title-color);
 }
 
 .feature-bottom__title,
 .work-bottom__title {
-  font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
-}
-
-.bottom-title--dark {
-  color: var(--second-title-color);
-}
-
-.bottom-title--light {
-  color: #FFFFFF;
 }
 
 .soc-list {
@@ -298,11 +321,6 @@ img {
 
 .header {
   border: 1px solid #ECECEC;
-}
-
-.header .container {
-  display: flex;
-  align-items: center;
 }
 
 .navigation {
@@ -363,20 +381,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.hero__title {
-  font-family: 'Roboto';
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-align: center;
-  display: inline-block;
-  width: 696px;
-  margin-bottom: var(--second-margin);
-  color: var(--top-title-color);
 }
 
 .hero__btn {
@@ -532,11 +536,6 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footer-color);
-}
-
-.footer-content {
-  display: flex;
-  align-items: baseline;
 }
 
 .address-list {
