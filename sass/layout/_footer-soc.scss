@@ -1,9 +1,22 @@
 .social{
-  margin-left: 70px;
+@media screen and (max-width: 480px){
+  margin-top: 60px;
+}
+@media screen and (min-width: 480px){
+  // margin-top: 60px;
+}
+ @media screen and (min-width: 768px){
+  
+}
+@media screen and (min-width: 1200px){
+ margin-left: 70px;
+}
 }
 .social-text{
 font-weight: 700;
-line-height: 16px;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 

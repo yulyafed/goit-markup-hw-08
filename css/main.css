@@ -143,9 +143,11 @@ img {
   align-items: center;
 }
 
-.container--bottom {
-  display: flex;
-  align-items: baseline;
+@media screen and (min-width: 1200px) {
+  .container--bottom {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .section {
@@ -163,8 +165,9 @@ img {
 .logo {
   font-family: 'Raleway','Tahoma', sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -723,6 +726,18 @@ img {
   background-color: var(--footer-color);
 }
 
+@media screen and (min-width: 768px) {
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+}
+
+.footer-address {
+  text-align: center;
+}
+
 .address-list {
   font-style: normal;
 }
@@ -735,12 +750,12 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
   color: var(--address-color);
 }
 
 .mail {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .address-list__link {
@@ -755,13 +770,23 @@ img {
   color: var(--hover-color);
 }
 
-.social {
-  margin-left: 70px;
+@media screen and (max-width: 480px) {
+  .social {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .social {
+    margin-left: 70px;
+  }
 }
 
 .social-text {
   font-weight: 700;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -769,22 +794,18 @@ img {
 }
 
 .form {
-  margin-left: auto;
+  margin-top: 60px;
+  text-align: center;
 }
 
 .form__text {
   font-weight: 700;
-  line-height: 16px;
+  line-height: 1.14;
+  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #FFFFFF;
-}
-
-.form__content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .form__input {
@@ -792,7 +813,7 @@ img {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  min-width: 358px;
+  min-width: 450px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -802,7 +823,7 @@ img {
 }
 
 .form-btn {
-  margin-left: 12px;
+  margin-top: 20px;
   color: var(--top-btn-color);
   background-color: var(--accent-color);
 }
