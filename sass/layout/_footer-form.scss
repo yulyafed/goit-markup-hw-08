@@ -1,7 +1,8 @@
 .form{
-  // margin-left: auto;
-  margin-top: 60px;
   text-align: center;
+  @media screen and (min-width: 1200px){
+  margin-left: auto;
+  }
 }
 .form__text{
 font-weight: 700;
@@ -13,12 +14,17 @@ text-transform: uppercase;
 margin-bottom: 20px;
 
 color: #FFFFFF;
+@media screen and (min-width: 1200px){
+  text-align: start;
+}
 }
 .form__content{
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-}
+  @media screen and (min-width: 1200px){
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  }
+  }
 .form__input{
 font-weight: 400;
 font-size: 16px;
@@ -30,16 +36,20 @@ height:50px ;
 border: 1px solid rgba(255, 255, 255, 0.3);
 border-radius: 4px;
 padding-left: 16px;
+margin-bottom: 20px;
 
 color: rgba(255, 255, 255, 0.6);
 background-color: transparent;
+@media screen and (min-width: 1200px){
+  min-width: 358px;
+}
 }
 .form-btn{
-// margin-left: 12px;
-margin-top: 20px;
-
 color: var(--top-btn-color);
 background-color:var(--accent-color) ;
+@media screen and (min-width: 1200px){
+margin-left: 12px;
+}
 }
 .form-icon{
   margin-left: 10px;

@@ -12,7 +12,12 @@ padding-bottom: 24px;
 color: var(--logo-top-color);
 }
 .logo--light{
+display: block;
+margin-bottom: 20px;
 color:var(--logo-bottom-color);
+@media screen and (min-width: 1200px){
+text-align: start;
+}
 }
 .logo__accent{
 font-family: 'Raleway','Tahoma', sans-serif;
