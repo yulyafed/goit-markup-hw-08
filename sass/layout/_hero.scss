@@ -2,8 +2,8 @@
   padding-top: 118px;
   padding-bottom: 118px;
   text-align: center;
-  width: 480px;
-  height:400px; 
+  max-width: 480px;
+  height:400; 
   margin-left: auto;
   margin-right: auto;
 
@@ -17,12 +17,12 @@
   background-position: center;
   background-size: cover;
    @media screen and (min-width: 768px) {
-    width: 768px;
+    max-width: 768px;
   }
    @media screen and (min-width: 1200px) {
     padding-top: 200px;
     padding-bottom: 200px;
-    width: 1600px;
+    max-width: 1600px;
     height:600px; 
 }
 }

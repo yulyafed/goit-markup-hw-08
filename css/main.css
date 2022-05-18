@@ -412,8 +412,8 @@ img {
   padding-top: 118px;
   padding-bottom: 118px;
   text-align: center;
-  width: 480px;
-  height: 400px;
+  max-width: 480px;
+  height: 400;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
@@ -424,7 +424,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
@@ -432,7 +432,7 @@ img {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
   }
 }
@@ -483,7 +483,7 @@ img {
 
 .feature-gallery {
   display: flex;
-  width: 450px;
+  max-width: 450px;
   height: 120px;
   border-radius: 4px;
   justify-content: center;
@@ -494,14 +494,14 @@ img {
 
 @media screen and (min-width: 768px) {
   .feature-gallery {
-    width: 354px;
+    max-width: 354px;
     height: 120px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .feature-gallery {
-    width: 270px;
+    max-width: 270px;
     height: 120px;
   }
 }

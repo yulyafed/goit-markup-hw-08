@@ -22,7 +22,7 @@
 }
 .feature-gallery{
 display: flex;
-width: 450px;
+max-width: 450px;
 height: 120px;
 border-radius: 4px;
 justify-content: center;
@@ -31,11 +31,11 @@ margin-bottom: 30px;
 
 background-color: var(--team-fon-color);
 @media screen and (min-width: 768px){
-  width: 354px;
+  max-width: 354px;
   height: 120px;
 }
 @media screen and (min-width: 1200px){
- width: 270px;
+ max-width: 270px;
  height: 120px;
 }
 }
