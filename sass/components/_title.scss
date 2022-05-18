@@ -31,7 +31,6 @@ width: 696px;
 margin-bottom: var(--second-margin);
 }
 }
-.feature-top__title,
 .work-top__title,
 .team-top__title,
 .clients-top__title {
@@ -48,7 +47,11 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-align: center;
 
 margin-bottom: 10px;
+@media screen and (min-width: 768px){
+  text-align: start;
+}
 }
 
