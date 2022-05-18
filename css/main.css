@@ -153,6 +153,13 @@ img {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .logo {
   font-family: 'Raleway','Tahoma', sans-serif;
   font-weight: 700;
@@ -453,6 +460,12 @@ img {
   background-color: var(--hover-btn-color);
 }
 
+@media screen and (min-width: 1200px) {
+  .feature {
+    padding-bottom: 47px;
+  }
+}
+
 .feature-list {
   margin-bottom: -30px;
 }
@@ -628,11 +641,41 @@ img {
 
 .logo-list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
 }
 
-.logo-list__item + .logo-list__item {
+@media screen and (min-width: 768px) {
+  .logo-list {
+    margin-left: -30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-list {
+    margin-left: -30px;
+  }
+}
+
+.logo-list__item {
+  width: calc(100% / 2 - 30px);
   margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-list__item {
+    width: calc(100% / 3 - 30px);
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-list__item {
+    width: calc(100% / 6 - 30px);
+    margin-left: 30px;
+  }
 }
 
 .logo-list__link {
@@ -640,7 +683,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 210px;
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
@@ -650,6 +693,18 @@ img {
 
 .logo-list__link:hover, .logo-list__link:focus {
   border-color: var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {
+  .logo-list__link {
+    width: 226px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-list__link {
+    width: 170px;
+  }
 }
 
 .logo-list__icon {
