@@ -179,9 +179,17 @@ img {
 }
 
 .logo--dark {
-  padding-top: 26px;
-  padding-bottom: 26px;
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
   color: var(--logo-top-color);
+}
+
+@media screen and (min-width: 768px) {
+  .logo--dark {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -214,6 +222,12 @@ img {
 
 .list-contacts {
   margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .list-contacts {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -431,15 +445,15 @@ img {
   border: 1px solid #ECECEC;
 }
 
-@media screen and (max-width: 767px) {
-  .header {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .navigation {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-list {
+    display: none;
   }
 }
 
