@@ -1,12 +1,20 @@
 .nav-list{
+@media screen and (min-width: 768px){
 display: flex;
 align-items: center;
+margin-left: 88px;
+}
+@media screen and (min-width: 1200px){
 margin-left: 93px;
 }
+}
 .nav__item + .nav__item{
+@media screen and (min-width: 768px){
 margin-left: 50px;
 }
+}
 .nav__link{
+@media screen and (min-width: 768px){
 position: relative;
 
 font-weight: 500;
@@ -28,7 +36,9 @@ color:var(--hover-color);
 color: var(--current-color);
 }
 }
+}
 .nav__link.current::after{
+  @media screen and (min-width: 768px){
   position: absolute;
   bottom: 0;
   content: "";
@@ -39,4 +49,5 @@ color: var(--current-color);
   display: block;
 
   background-color:var(--current-color);
+  }
 }

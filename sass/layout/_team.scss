@@ -3,6 +3,7 @@
 }
 .team-list{
   margin-bottom: -30px;
+
   @media screen and (min-width: 768px){
   display: flex;
   flex-wrap: wrap;
@@ -19,7 +20,8 @@
   margin-bottom: 30px;
 
   background-color: var(--team-color);
-   @media screen and (min-width: 768px){
+
+  @media screen and (min-width: 768px){
   width: calc(100% / 2 - 30px);
   margin-left: 30px;}
   @media screen and (min-width: 1200px){
@@ -27,9 +29,6 @@
   margin-left: 30px;
 }
 }
-// .team-list__item + .team-list__item{
-//   margin-left: var(--first-margin);
-// }
 .team-list__img{
   margin-bottom: var(--second-margin);
   width: 100%;

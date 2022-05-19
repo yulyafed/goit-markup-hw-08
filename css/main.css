@@ -171,10 +171,24 @@ img {
   letter-spacing: 0.03em;
 }
 
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
 .logo--dark {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 26px;
+  padding-bottom: 26px;
   color: var(--logo-top-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .logo--dark {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 
 .logo--light {
@@ -199,17 +213,31 @@ img {
 }
 
 .list-contacts {
-  display: flex;
   margin-left: auto;
 }
 
-.list-contacts__item {
-  display: flex;
-  align-items: center;
+@media screen and (min-width: 1200px) {
+  .list-contacts {
+    display: flex;
+    justify-content: center;
+  }
 }
 
-.list-contacts__item + .list-contacts__item {
-  margin-left: 50px;
+.list-contacts__item {
+  align-items: center;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .list-contacts__item {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list-contacts__item + .list-contacts__item {
+    margin-left: 50px;
+  }
 }
 
 .list-contacts__link {
@@ -219,14 +247,25 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
   color: var(--top-text-color);
   transition: color var(--duration) var(--time-function);
 }
 
 .list-contacts__link:hover, .list-contacts__link:focus {
   color: var(--hover-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .list-contacts__link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .list-contacts__item--top {
+    margin-bottom: 10px;
+  }
 }
 
 .list-contacts__icon {
@@ -304,8 +343,8 @@ img {
 .work-top__title,
 .team-top__title,
 .clients-top__title {
-  font-size: 36px;
-  line-height: 1.17;
+  font-size: 28px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 30px;
@@ -315,6 +354,8 @@ img {
   .work-top__title,
   .team-top__title,
   .clients-top__title {
+    font-size: 36px;
+    line-height: 1.17;
     margin-bottom: 50px;
   }
 }
@@ -388,50 +429,70 @@ img {
   border: 1px solid #ECECEC;
 }
 
-.navigation {
-  display: flex;
+@media screen and (max-width: 767px) {
+  .header {
+    display: none;
+  }
 }
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  margin-left: 93px;
+@media screen and (min-width: 768px) {
+  .navigation {
+    display: flex;
+  }
 }
 
-.nav__item + .nav__item {
-  margin-left: 50px;
+@media screen and (min-width: 768px) {
+  .nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: 88px;
+  }
 }
 
-.nav__link {
-  position: relative;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(--header-color);
-  transition: color var(--duration) var(--time-function);
+@media screen and (min-width: 1200px) {
+  .nav-list {
+    margin-left: 93px;
+  }
 }
 
-.nav__link:hover, .nav__link:focus {
-  color: var(--hover-color);
+@media screen and (min-width: 768px) {
+  .nav__item + .nav__item {
+    margin-left: 50px;
+  }
 }
 
-.nav__link.current {
-  color: var(--current-color);
+@media screen and (min-width: 768px) {
+  .nav__link {
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--header-color);
+    transition: color var(--duration) var(--time-function);
+  }
+  .nav__link:hover, .nav__link:focus {
+    color: var(--hover-color);
+  }
+  .nav__link.current {
+    color: var(--current-color);
+  }
 }
 
-.nav__link.current::after {
-  position: absolute;
-  bottom: 0;
-  content: "";
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  display: block;
-  background-color: var(--current-color);
+@media screen and (min-width: 768px) {
+  .nav__link.current::after {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    display: block;
+    background-color: var(--current-color);
+  }
 }
 
 .hero {

@@ -5,6 +5,7 @@
 }
 .feature-list{
   margin-bottom: -30px;
+  
   @media screen and (min-width: 768px){
   display: flex;
   flex-wrap: wrap;
@@ -15,6 +16,7 @@
 }
 .feature-list__item{
   margin-bottom: 30px;
+
    @media screen and (min-width: 768px){
   width: calc(100% / 2 - 30px);
   margin-left: 30px;}
@@ -33,6 +35,7 @@ align-items: center;
 margin-bottom: 30px;
 
 background-color: var(--team-fon-color);
+
 @media screen and (min-width: 768px){
   max-width: 354px;
   height: 120px;
