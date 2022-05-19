@@ -44,8 +44,8 @@ color: #757575;
 }
 .modal-area__input{
   font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.01em;
 
   width: 100%;
@@ -61,6 +61,9 @@ color: #757575;
   transition: border-color var(--duration) var(--time-function);
   &:focus{
   border-color: var(--accent-color);
+}
+ @media screen and (min-width: 1200px){
+  line-height: 1.17;
 }
 }
 .modal-check{
@@ -79,8 +82,8 @@ color: #757575;
 }
 .modal-check__label{
 font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
+font-size: 12px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 
 display: flex;
@@ -102,17 +105,25 @@ color: #757575;
    border-color: var(--accent-color);
 } 
 }
+ @media screen and (min-width: 1200px){
+  font-size: 14px;
+  line-height: 1.71;
+}
 }
 .modal-check__link{
 font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
+font-size: 12px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-decoration-line: underline;
 
 margin-left: 3px;
 
 color: #2196F3;
+@media screen and (min-width: 1200px){
+  font-size: 14px;
+  line-height: 1.71;
+}
 }
 .modal-btn{
 position: relative;
