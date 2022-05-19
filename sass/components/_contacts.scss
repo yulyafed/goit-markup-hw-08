@@ -21,8 +21,8 @@ display: flex;
 }
 .list-contacts__link{
 font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
+font-size: 12px;
+line-height: 1.17;
 letter-spacing: 0.02em;
 
 display: flex;
@@ -39,6 +39,8 @@ color:var(--hover-color);
 @media screen and (min-width: 1200px){
 padding-top: 32px;
 padding-bottom: 32px;
+font-size: 14px;
+line-height: 1.14
 }
 }
 .list-contacts__item--top{
