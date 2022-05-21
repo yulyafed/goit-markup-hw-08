@@ -16,9 +16,12 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 
 display: inline-block;
-width: 360px;
+width: 100%;
 margin-bottom: var(--second-margin);
 
+@media screen and (min-width: 480px){
+width: 360px;
+}
 @media screen and (min-width: 1200px) {
 font-weight: 900;
 font-size: 44px;
