@@ -1,3 +1,8 @@
+.navigation{
+  @media screen and (min-width: 768px){
+    display: flex;
+  }
+ }
 .nav-list{
 @media screen and (max-width: 767px){
 display: none;
@@ -27,7 +32,7 @@ letter-spacing: 0.02em;
 
 display: block;
 padding-top: 32px;
-padding-bottom: 32px;
+padding-bottom: 35px;
 
 color: var(--header-color);
 transition: color var(--duration) var(--time-function);
