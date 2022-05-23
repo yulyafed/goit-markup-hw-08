@@ -17,9 +17,14 @@
 <body>
     <header class="header">
         <div class="container container--top">
-        <nav class="navigation">
+                <nav class="navigation">
             <a href="" lang="en" class="logo logo--dark link"><span class="logo__accent">Web</span>Studio</a>
-            <ul class="nav-list list"> 
+                    <button type="button" class="mob-open-btn">
+                    <svg class="mob-open__icon" width="40" height="40">
+                        <use href="./images/icons.svg#icon-menu_40px"></use>
+                    </svg>
+                </button>
+                    <ul class="nav-list list"> 
                 <li class="nav__item"><a href="./index.html" class="nav__link link">Студия</a></li>
                 <li class="nav__item"><a href="" class="nav__link link current">Портфолио</a></li>
                 <li class="nav__item"><a href="" class="nav__link link">Контакты</a></li>
@@ -34,6 +39,37 @@
                     <svg class="list-contacts__icon icon-smartphone" width="10" height="16">
                         <use href="./images/icons.svg#icon-smartphone"></use>
                     </svg> +38 096 111 11 11</a></li>
+            </ul>
+        </div>
+        <div class="mob-menu">
+                <button type="button" class="mob-close-btn"><svg class="mob-close__icon" width="40" height="40">
+                    <use href="./images/icons.svg#icon-close_40px"></use>
+                </svg></button>
+            <ul class="mob-nav-list list">
+                <li class="mob-nav-list__item"><a href="./index.html" class="mob-nav-list__link link">Студия</a></li>
+                <li class="mob-nav-list__item"><a href="" class="mob-nav-list__link link">Портфолио</a></li>
+                <li class="mob-nav-list__item"><a href="" class="mob-nav-list__link link">Контакты</a></li>
+            </ul>
+            </nav>
+            <ul class="mob-contacts-list list">
+                <li class="mob-contacts-list__item">
+                    <a href="tel:+380961111111" class="mob-contacts-list__link link ">
+                        +38 096 111 11 11</a>
+                </li>
+                <li class="mob-contacts-list__item">
+                    <a href="mailto:info@devstudio.com" class="mob-contacts-list__link link">
+                        info@devstudio.com</a>
+                </li>
+            </ul>
+            <ul class="mob-soc-list list">
+                <li class="mob-soc-list__item"><a href="" class="mob-soc-list__link link">
+                        Instagram</a></li>
+                <li class="mob-soc-list__item"><a href="" class="mob-soc-list__link link">
+                        Twitter</a></li>
+                <li class="mob-soc-list__item"><a href="" class="mob-soc-list__link link">
+                        Facebook</a></li>
+                <li class="mob-soc-list__item"><a href="" class="mob-soc-list__link link">
+                        LinkedIn</a></li>
             </ul>
         </div>
     </header>
