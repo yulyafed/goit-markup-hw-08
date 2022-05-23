@@ -4,7 +4,7 @@
     "sources": [
         "../sass/main.scss",
         "../sass/base/_common.scss",
-        "../sass/base/_rezet.scss",
+        "../sass/base/_reset.scss",
         "../sass/utils/_variables.scss",
         "../sass/utils/_vh.scss",
         "../sass/components/_container.scss",
