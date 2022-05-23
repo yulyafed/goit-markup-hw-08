@@ -78,3 +78,8 @@ letter-spacing: 0.03em;
 color: var(--second-text-color);
 background-color:var(--portfolio-fon-color);
 }
+.text-veb{
+   @media screen and (min-width: 768px) and (max-width:1199px){
+  margin-bottom: 36px;
+  }
+}

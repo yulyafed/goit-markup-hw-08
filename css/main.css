@@ -1349,4 +1349,10 @@ img {
   color: var(--second-text-color);
   background-color: var(--portfolio-fon-color);
 }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .text-veb {
+    margin-bottom: 36px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
