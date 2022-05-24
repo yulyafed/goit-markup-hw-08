@@ -28,9 +28,9 @@ transition: fill var(--duration) var(--time-function);
   padding-bottom: 48px;
    .container{
       overflow-y: auto;
+      height: 100%;
       display: flex;
       flex-direction: column;
-      height: 100%;
       justify-content: space-between;
   }
   @media screen and (min-width: 768px) {
