@@ -38,7 +38,6 @@ height:50px ;
 border: 1px solid rgba(255, 255, 255, 0.3);
 border-radius: 4px;
 padding-left: 16px;
-margin-bottom: 20px;
 
 color: rgba(255, 255, 255, 0.6);
 background-color: transparent;
@@ -46,7 +45,9 @@ background-color: transparent;
 @media screen and (min-width: 480px){
   min-width: 450px;
 }
-
+@media screen and (max-width: 1199px){
+margin-bottom: 20px;
+}
 @media screen and (min-width: 1200px){
   min-width: 358px;
 }

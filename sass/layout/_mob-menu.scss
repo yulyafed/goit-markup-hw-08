@@ -24,8 +24,7 @@ transition: fill var(--duration) var(--time-function);
   background-color: #ffffff;
   width: 100vw;
   height: 100vh;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding: 48px 40px;
    .container{
       overflow-y: auto;
       height: 100%;
@@ -36,6 +35,7 @@ transition: fill var(--duration) var(--time-function);
   @media screen and (min-width: 768px) {
     display: none;
   }
+  transition: opacity var(--duration) var(--time-function),visibility var(--duration) var(--time-function);
   }
  .mob-close-btn {
   position: absolute;
@@ -94,6 +94,7 @@ transition: color var(--duration) var(--time-function);
 }
 .mob-soc-list {
   display: flex;
+  flex-wrap: wrap;
 }
 .mob-soc-list__item:not(:last-child) .mob-soc-list__link::after {
     content: "";

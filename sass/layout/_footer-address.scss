@@ -5,11 +5,17 @@
   background-color: var(--footer-color);
 }
 .footer-content{
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) and (max-width: 1199px){
   display: flex;
   justify-content: space-around;
   align-items: baseline;
+  margin-bottom: 60px;
 }
+@media screen and (min-width: 768px){
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  }
 }
 .footer-address{
 text-align: center;
@@ -18,8 +24,9 @@ text-align: center;
   font-style: normal;
 }
 .top-address{
+@media screen and (max-width: 767px){
 margin-bottom: 60px;
-
+}
 @media screen and (min-width: 1200px){
 text-align: start;
 }

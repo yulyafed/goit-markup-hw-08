@@ -47,6 +47,16 @@ font-size: 14px;
 line-height: 1.14
 }
 }
+.contacts-mail-link{
+  @media screen and (min-width: 768px)and (max-width:1199px){
+ padding-top: 20px;
+}
+}
+.contacts-tel-link{
+  @media screen and (min-width: 768px)and (max-width:1199px){
+   padding-bottom: 20px;
+  }
+}
 .list-contacts__item--top{
   @media screen and (min-width: 768px) and (max-width: 1199px){
   margin-bottom: 10px;
