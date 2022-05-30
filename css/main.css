@@ -689,7 +689,8 @@ img {
 
 @media screen and (min-width: 480px) {
   .hero {
-    padding: 118px 60px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     text-align: center;
     max-width: 100%;
     height: auto;
@@ -710,7 +711,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding: 118px 204px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     min-width: 768px;
     background-image: linear-gradient(rgba(25, 28, 38, 0.5), rgba(25, 28, 38, 0.5)), url(../images/hero-tablet.jpg);
   }
@@ -724,8 +726,9 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    padding: 200px 452px;
-    min-width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
     background-image: linear-gradient(rgba(25, 28, 38, 0.5), rgba(25, 28, 38, 0.5)), url(../images/hero.jpg);
   }
 }
@@ -1500,7 +1503,6 @@ img {
 
 .portfolio-link {
   display: block;
-  margin-bottom: 30px;
   transition: box-shadow var(--duration) var(--time-function);
 }
 
@@ -1508,8 +1510,17 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .portfolio-link {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+}
+
 .portfolio-item {
   display: block;
+  margin-bottom: 30px;
   cursor: pointer;
 }
 
@@ -1556,15 +1567,6 @@ img {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
-}
-
-.portfolio-content-top {
-  display: flex;
-  flex-direction: column;
-  height: 146px;
-}
-
-.portfolio-text-top {
   flex-grow: 1;
 }
 
