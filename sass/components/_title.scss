@@ -1,0 +1,68 @@
+.title{
+ font-family: 'Roboto';   
+}
+.title--dark{
+ color: var(--second-title-color); 
+}
+.title--light{
+color: #FFFFFF;
+}
+.hero__title{
+font-weight: 900;
+font-size: 26px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+display: inline-block;
+width: 100%;
+margin-bottom: var(--second-margin);
+
+@media screen and (min-width: 480px){
+width: 360px;
+}
+@media screen and (min-width: 1200px) {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+
+display: inline-block;
+width: 696px;
+margin-bottom: var(--second-margin);
+}
+}
+.work-top__title,
+.team-top__title,
+.clients-top__title {
+font-size: 28px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+
+margin-bottom: 30px;
+
+@media screen and (min-width: 1200px){
+  font-size: 36px;
+  line-height: 1.17;
+  margin-bottom: 50px;
+}
+}
+.feature-bottom__title,
+.work-bottom__title{
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-align: center;
+
+margin-bottom: 10px;
+
+@media screen and (min-width: 768px){
+  text-align: start;
+}
+}
+

@@ -1,0 +1,24 @@
+.social{
+@media screen and (max-width: 767px){
+margin-bottom: 60px;
+}
+@media screen and (min-width: 1200px){
+ margin-left: 70px;
+}
+}
+.social-text{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+margin-bottom: 20px;
+
+color: #FFFFFF;
+
+@media screen and (min-width: 1200px){
+text-align: start;
+}
+}

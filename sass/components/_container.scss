@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  // outline: 1px solid rgb(224, 34, 145);
+  
+    @media screen and (min-width: 480px) {
+    max-width: 480px ;
+}
+    @media screen and (min-width: 768px) {
+    max-width: 768px ;
+}
+    @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+}
+}
+ .container--top{
+  display: flex;
+  align-items: center;
+}
+.container--bottom{
+ @media screen and (min-width: 1200px){
+ display: flex;
+ align-items: baseline;
+ }
+}
